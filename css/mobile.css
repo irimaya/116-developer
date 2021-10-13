@@ -1,41 +1,28 @@
-/* Utility Classes */
-.display-1 { 
-  font-size: 3rem; 
-}
-
-/* Navbar */
-#navbar {
-  height: 100%;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-#navbar .logo {
-  float: none;
-}
-
-#navbar ul {
-  float: none;
-  padding-left: 30px;
+.display-1 {
+  font-size: 3rem;
+  /* text-transform: uppercase;
+  font-weight: 200; */
 }
 
 /* Showcase */
 #showcase {
   height: 100%;
-}
-.showcase-display {
-  text-align: center;
-  padding: 180px 20px;
+  padding: 120px;
 }
 
-.showcase-display h1 {
-  font-weight: 200;
+#showcase h1 {
+  font-size: 2rem;
+}
+
+#showcase p {
+  font-size: 1rem;
 }
 
 /* About */
 #about {
   height: 100%;
 }
+
 .about-background {
   float: none;
   width: 100%;
@@ -45,6 +32,7 @@
 .about-text {
   float: none;
   width: 100%;
+  padding: 20px;
 }
 
 .about-text h2 {
@@ -54,18 +42,19 @@
 /* Work */
 #work {
   height: 100%;
-  margin-top: 20px;
 }
+
 .work-title {
   float: none;
   width: 100%;
   height: 100%;
-  text-align: center;
   padding: 20px;
+  background: #fff;
+  color: #000;
 }
 
 .work-title h2 {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .work-text {
@@ -75,7 +64,7 @@
 }
 
 .work-text p:first-child {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 /* Background */
@@ -85,8 +74,8 @@
 
 .background-left,
 .background-right {
-  height: 100%;
-  float: none;
+  height: 200px;
+  float:none;
   width: 100%;
 }
 
@@ -94,25 +83,22 @@
 #contact {
   height: 100%;
 }
+
 .contact-form {
   float: none;
   width: 100%;
   height: 100%;
-  padding: 40px 20px;
+  padding: 40px;
 }
 
 .contact-title {
   float: none;
   width: 100%;
   padding: 20px;
-}
-.contact-title h2 {
-  padding-top: 10px;
+  background: #000;
+  color: #fff;
 }
 
-/* Footer */
-#mainfooter {
-  background: #000;
-  text-align: center;
-  padding:30px;
+.contact-title h2 {
+  padding-top: 20px;
 }
